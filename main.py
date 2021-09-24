@@ -6,9 +6,9 @@ now = datetime.now()
 
 chour = now.strftime("%H")
 
-mobile = input('Enter Mobile No of Receiver : ')
+mobile = int(input('Enter Mobile No of Receiver : '))
 
-message = input('Enter Message you wanna send : ')
+message = int(input('Enter Message you wanna send : '))
 
 hour = int(input('Enter hour : '))
 
